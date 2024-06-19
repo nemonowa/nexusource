@@ -6,12 +6,12 @@ for four other files
 《諺》For others「他者のために。」
 
 /
-(=nexusourse.exe)
-nexusourse.bat 実行ファイル
+nexusourse.exe 実行ファイル
+(= nexusourse.bat) ソースファイル
 Manifest.neo 定義ファイル
 icon.ico アイコン
 README.txt
-4other 次の階層フォルダ説明・引き継ぎ用ファイル
+(4other) 次の階層フォルダ説明・引き継ぎ用ファイル
 
 
 //
