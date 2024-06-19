@@ -1,6 +1,6 @@
 c:/nexusourse/4other/
 
-# 4oher (for four other files)
+# 4other (for four other files)
 このファイルは、クリエイターのために作られている「基礎ファイル4つ以外を入れるためのフォルダ4other」を説明するためのファイルです。
 Howdy? creator,this file for creator.
 《諺》For others「他者のために。」
@@ -24,10 +24,10 @@ That’s why I am minecraft commander.
 /第一階層
 nexusourse.exe 実行ファイル
 (= nexusourse.bat) ソースファイル
-Manifest.neo 定義ファイル
+manifest.neo 定義ファイル
 icon.ico アイコン
 README.txt 人が読むためのもの。初めに読むための最重要事項をまとめる。
-(4other) 次の階層フォルダ説明・引き継ぎ用ファイル
+(4other.md) 次の階層フォルダ説明・引き継ぎ用ファイル
 
 
 //第二階層：other/<>
@@ -48,7 +48,8 @@ config
 save/world
 
 ///第3階層：igonore/<>
-
+.gitignore
+.env
 
 
 
