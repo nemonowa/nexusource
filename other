@@ -1,17 +1,22 @@
 c:/nexusourse/4other/
 
-4oher
-基礎ファイル四つ以外を入れるためのファイル
+# 4oher
+Howdy? creator,this file for creator.
+基礎ファイル4つ以外を入れるためのフォルダ4otherを説明するためのファイルです。
 for four other files
 《諺》For others「他者のために。」
 
-命名法則：読み易さ重点。
+## 命名法則
+命名は読みやすさ(可読性)を重視しています。パスになりうる命名は極力、スペースやアンダーバーを使わずに、小文字の英単語を心がけてください。しかし過度な略語も可読性を下げます。
 negative to use capital letter
 negative to use plural form
 
 That’s why I am minecraft commander.
 
+## 階層構造
+列挙以外のファイル数は9つ以内に分類することを理想としています。
 ()は開発者用の隠しファイル。
+
 /第一階層
 nexusourse.exe 実行ファイル
 (= nexusourse.bat) ソースファイル
