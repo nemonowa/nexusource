@@ -36,22 +36,18 @@ input 読・(書)。進行に応じて自動で読み込まれる。進行に応
 output (読)・書。あらかじめ書き込まれていないファイル群が作成、配置されるフォルダ。進行に応じて書き込まれる。
 ignore 無。進行に応じて読み込みも書き込みもされないフォルダです。そもそも読み込まれるのは上の3フォルダの中だけですが、読み込まれる必用のないファイルはこの中に配置することをお勧めします。
 
-config 入出力。あらかじめデフォルトデータが書き込まれているが、進行に応じて入出力されるファイル群が属するフォルダ。
-asset(world preset)
-system/function/command
 
-
-///第3階層：asset/
+///第3階層：asset/<>
 system/function/command
 preset/world
 
-///第3階層：input
+///第3階層：input/<>
 config
 
-///第3階層：output/
+///第3階層：output/<>
 save/world
 
-///第3階層：igonore/
+///第3階層：igonore/<>
 
 
 
