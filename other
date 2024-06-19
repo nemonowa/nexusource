@@ -5,7 +5,7 @@ c:/nexusourse/4other/
 for four other files
 《諺》For others「他者のために。」
 
-/
+/第一階層
 nexusourse.exe 実行ファイル
 (= nexusourse.bat) ソースファイル
 Manifest.neo 定義ファイル
@@ -14,7 +14,7 @@ README.txt
 (4other) 次の階層フォルダ説明・引き継ぎ用ファイル
 
 
-//
-input
-output
-config
+//第二階層
+input 入力。あらかじめ書き込まれているファイル群の属するフォルダ。進行に応じて書き込まれない。
+output 出力。あらかじめ書き込まれていないファイル群が作成、配置されるフォルダ。進行に応じて書き込まれる。
+config 入出力。あらかじめデフォルトデータが書き込まれているが、進行に応じて入出力されるファイル群が属するフォルダ。
