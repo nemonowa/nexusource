@@ -1,9 +1,8 @@
-title:
+#title:
 nexusource
 description:
 source of "NEO"
 link:
-てすと
 
 <nexusource> is namespace. put desktop.
 
