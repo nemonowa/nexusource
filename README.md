@@ -34,3 +34,5 @@ C:\Users\nemo\ibisPaint
 C:\Windows
 #パスの中に%userprofile%や大文字やスペース、記号を含めたくない。Program Filesはいちいち管理者権限がいるのがめんどい。もうshift押すのすら面倒。Cドライブ直下になりましたｗまあポータブルの独立で動かせるものにするので許せ。
 C:\nexusource
+
+"C:\nexusource\4other\asset\resource\text\.primary\principal\political\correctness\assemble\.INDEX.md"
