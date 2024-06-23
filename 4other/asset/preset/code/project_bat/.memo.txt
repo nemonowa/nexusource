@@ -1,0 +1,50 @@
+COLOR 0a
+VER
+PING localhost
+echo Hello World
+MD asset
+DISM /online /Import-DefaultAppAssociations:F:\AppAssociations.xml
+CD C:\Users
+ASSOC .pdf = C:\Program Files\Mozilla Firefox
+DATE
+TIME
+PAUSE	
+
+
+
+
+
+
+@echo off
+
+rem デスクトップのworkフォルダを開く
+start "" "%userprofile%\desktop\work"
+
+rem Dドライブの日報.xlsx
+start "" "D:日報.xlsx"
+
+rem 電卓を開く
+start "" "C:\Windows\System32\calc.exe"
+
+rem ChromeでYouTubeを開く
+set prog="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+set opt="https://www.youtube.com"
+start "" %prog% %opt%
+
+
+
+@echo off
+
+shutdown /r /t 0
+
+
+@echo off
+SET /P selected="シャットダウンしますか(y/n)？"
+if /i "%selected%"=="y" (goto :yes)
+if /i "%selected%"=="yes" (goto :yes)
+exit 0
+
+:yes
+shutdown -s -t 0
+
+exit 0

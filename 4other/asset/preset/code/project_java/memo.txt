@@ -1,0 +1,32 @@
+JARファイルの作成:
+
+    Javaのプログラムを通常はJAR（Java Archive）ファイルとして配布します。これはJavaアプリケーションのパッケージング形式であり、Java仮想マシン上で実行することができます。
+
+java
+
+// HelloWorld.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+上記のようなシンプルな Java プログラムを HelloWorld.java というファイル名で保存します。
+
+コンパイルするには、ターミナルまたはコマンドプロンプトで以下のコマンドを実行します。
+
+javac HelloWorld.java
+
+これにより、HelloWorld.class というバイトコードファイルが生成されます。
+
+次に、JARファイルを作成します。
+
+arduino
+
+jar cfe HelloWorld.jar HelloWorld HelloWorld.class
+
+これにより、HelloWorld.jar という実行可能な JAR ファイルが生成されます。
+
+JARファイルを実行する方法:
+
+    JAR ファイルは、Java がインストールされた環境ならどこでも実行できます。Windowsでは、ダブルクリックするか、コマンドラインで java -jar HelloWorld.jar と入力して実行します。
