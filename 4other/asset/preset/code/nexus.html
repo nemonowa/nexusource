@@ -1,0 +1,19 @@
+window.onload = function() {
+    let overlay = document.getElementById('overlay');
+    let content = document.getElementById('content');
+
+    // フェードインして暗転
+    overlay.style.opacity = 1;
+
+    // 2秒後にフェードアウト
+    setTimeout(function() {
+        overlay.style.opacity = 0;
+
+        // フェードアウトが完了するまでにさらに2秒待つ
+        setTimeout(function() {
+            overlay.style.display = 'none';
+            content.style.display = 'block';
+        }, 2000);
+
+    }, 2000);
+};
